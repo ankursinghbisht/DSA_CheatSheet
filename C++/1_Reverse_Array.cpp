@@ -47,10 +47,10 @@ void printString(string s)
 int main()
 {
     string s = "abcd";
-    len = s.length();
+    int len = s.length();
 
     //s=reverseWord(s);
-    reverse_Through_Recurrsion(s, 0, length);
+    reverse_Through_Recurrsion(s, 0, len - 1);
     printString(s);
 
     return 0;
