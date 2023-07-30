@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f97257c-5c34-413b-bce1-40b3de233eff" name="Changes" comment="Union &amp; intersection of 2 sorted arrays (c++)">
+    <list default="true" id="5f97257c-5c34-413b-bce1-40b3de233eff" name="Changes" comment="left circular rotation of array (exec file)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,31 @@
       <option name="project" value="LOCAL" />
       <updated>1690648641391</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="left circular rotation of array (python)">
+      <option name="closed" value="true" />
+      <created>1690650367568</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690650367568</updated>
+    </task>
+    <task id="LOCAL-00008" summary="left circular rotation of array (c++)">
+      <option name="closed" value="true" />
+      <created>1690652192253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690652192253</updated>
+    </task>
+    <task id="LOCAL-00009" summary="left circular rotation of array (exec file)">
+      <option name="closed" value="true" />
+      <created>1690653932214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690653932214</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,7 +128,10 @@
     <MESSAGE value="Moving all negative elements to left (c++)" />
     <MESSAGE value="Union &amp; intersection of 2 sorted arrays (python)" />
     <MESSAGE value="Union &amp; intersection of 2 sorted arrays (c++)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Union &amp; intersection of 2 sorted arrays (c++)" />
+    <MESSAGE value="left circular rotation of array (python)" />
+    <MESSAGE value="left circular rotation of array (c++)" />
+    <MESSAGE value="left circular rotation of array (exec file)" />
+    <option name="LAST_COMMIT_MESSAGE" value="left circular rotation of array (exec file)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
