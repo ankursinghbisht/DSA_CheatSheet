@@ -2,7 +2,7 @@
 Idea:
 There are n+1 positive elements & only 1 element is repeated.
 Starting from index 0, going to element at value of that index and marking that element negative.
-We'll get one positve element ( as one element is repeating)
+We'll get one positive element ( as one element is repeating)
 */
 
 #include<bits/stdc++.h>
