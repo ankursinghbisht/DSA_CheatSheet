@@ -3,7 +3,7 @@ Remember one rule :- You can only buy one time & sell one time
 
 Idea:
 If we choose the minimum number at each element, and find the highest difference if sold at current element,
-savind the highest difference will be the answer.
+saving the highest difference will be the answer.
 */
 
 
