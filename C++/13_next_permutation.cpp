@@ -16,7 +16,7 @@ void nextPermutation(vector<int>& nums)
 
 
     while (i >= 0 && nums[i] >= nums[i + 1])
-        //finding the index, where element are in non decending order
+        //finding the index, where element are in non-descending order
         --i;
 
     if (i >= 0)
