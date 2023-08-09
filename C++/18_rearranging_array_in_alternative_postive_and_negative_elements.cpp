@@ -111,7 +111,7 @@ void rearrange(int arr[], int n)
 void rearrange_with_space(int arr[], int n)
 {
     int temp[n] = { 0 }; //declaring extra space to store elements
-    int positive_index = 0, negative_index = 1; //using 2 pointers to store +ve and -ve elements
+    int positive_index = 1, negative_index = 0; //using 2 pointers to store +ve and -ve elements
 
     for (int i = 0;i < n;++i)
     {
@@ -145,6 +145,7 @@ int main()
 
     int n = sizeof(arr) / sizeof(arr[0]);
 
+    //rearrange_naive(arr, n);
     rearrange(arr, n);
     //rearrange_with_space(arr, n);
     cout << "Rearranged array is \n";
