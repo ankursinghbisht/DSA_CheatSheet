@@ -45,14 +45,12 @@ bool find3Numbers_usingSort(int arr[], int n, int X)
             //if triplet found, return
             if (arr[front] + arr[back] == X - arr[i])
                 return true;
-
             else if (arr[front] + arr[back] > X - arr[i])
                 //if sum>ans, move pointer to front
                 --back;
             else
                 //If sum<ans, move pointer to the back
                 ++front;
-
         }
         return false;
     }
