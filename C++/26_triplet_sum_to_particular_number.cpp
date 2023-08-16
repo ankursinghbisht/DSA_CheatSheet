@@ -60,18 +60,16 @@ bool find3Numbers_usingSort(int arr[], int n, int X)
 
 int main()
 {
-    // int T;
-    // cin >> T;
-    // while (T--)
-    // {
-    //     int n, X;
-    //     cin >> n >> X;
-    //     int i, A[n];
-    //     for (i = 0;i < n;i++)
-    //         cin >> A[i];
-    //     cout << find3Numbers_usingMap(A, n, X) << endl;
-    // }
-
-    int arr[] = { 1,2,2,1 };
-    cout << find3Numbers_usingSort(arr, 4, 3);
+    int T;
+    cin >> T;
+    while (T--)
+    {
+        int n, X;
+        cin >> n >> X;
+        int i, A[n];
+        for (i = 0;i < n;i++)
+            cin >> A[i];
+        cout << find3Numbers_usingMap(A, n, X) << endl;
+    }
+    return 0;
 }
