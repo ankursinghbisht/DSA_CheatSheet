@@ -1,10 +1,8 @@
 /*
 Idea:
-Using Binary serach in 2D matrix,
+Using Binary search in 2D matrix,
 - if element is greater than target,decreasing the column
 - if element is smaller than target, increasing the row value
-
-
 */
 
 #include <bits/stdc++.h> 
@@ -23,7 +21,7 @@ public:
 
         if (target == matrix[0][0])
             // if matrix has only 1 element
-            return false;
+            return true;
 
         int x = 0;
         int y = col; // declaring the indices to traverse the matrix
