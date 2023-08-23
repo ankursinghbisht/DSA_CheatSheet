@@ -20,6 +20,7 @@ public:
         int minVal = INT_MAX, maxVal = INT_MIN;
         for (int i = 0;i < R;++i)
         {
+            //finding min & max value of the matrix by comparing first and last element of each row of matrix
             minVal = min(minVal, matrix[i][0]);
             maxVal = max(maxVal, matrix[i][C - 1]);
         }
@@ -31,8 +32,10 @@ public:
             int number_of_elements_smaller_than_median = 0, mid = minVal + (maxVal - minVal) / 2;
 
             for (int i = 0;i < R;++i)
+                // upper bound function returns number of elements smaller than target variable
                 number_of_elements_smaller_than_median += upper_bound(matrix[i].begin(), matrix[i].end(), mid) - matrix[i].begin();
 
+            // if count<target, shifting the min value, else shifting the max value.
             if (number_of_elements_smaller_than_median < elements_smaller_than_median)
                 minVal = mid + 1;
             else
