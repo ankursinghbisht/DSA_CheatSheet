@@ -1,5 +1,6 @@
 /*
-
+Idea:
+storing matrix in list & sorting and rearranging in the matrix & returning
 */
 
 #include <bits/stdc++.h>
@@ -9,8 +10,8 @@ using namespace std;
 class Solution
 {
 public:
-    vector<vector<int>> sortedMatrix(int N, vector<vector<int>> Mat) {
-        // code here
+    vector<vector<int>> sortedMatrix(int N, vector<vector<int>> Mat)
+    {
         vector<int>arr;
         for (int i = 0;i < N;++i)
             for (int j = 0;j < N;++j)
