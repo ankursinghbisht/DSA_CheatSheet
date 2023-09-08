@@ -12,28 +12,28 @@ using namespace std;
 class Solution {
 public:
 
-    int internalSearch(string target, int row, int col, vector<vector<char> >& hay, int row_max, int col_max, int index)
+    int internalSearch(string target, int row, int col, vector<vector<char> >& mat, int row_max, int col_max, int index)
     {
         int found = 0;
-        if (row >= 0 && row <= row_max && col >= 0 && col <= col_max && target[index] == hay[row][col])
+        if (row >= 0 && row <= row_max && col >= 0 && col <= col_max && target[index] == mat[row][col])
         {
             // if characters are matched
             char match = target[index];
             index += 1;
 
-            hay[row][col] = 0;
+            mat[row][col] = 0;
 
             if (target[index] == 0)
                 found = 1; // if string has ended
             else
             {
                 // through Backtrack searching in every directions
-                found += internalSearch(target, row, col + 1, hay, row_max, col_max, index);
-                found += internalSearch(target, row, col - 1, hay, row_max, col_max, index);
-                found += internalSearch(target, row + 1, col, hay, row_max, col_max, index);
-                found += internalSearch(target, row - 1, col, hay, row_max, col_max, index);
+                found += internalSearch(target, row, col + 1, mat, row_max, col_max, index);
+                found += internalSearch(target, row, col - 1, mat, row_max, col_max, index);
+                found += internalSearch(target, row + 1, col, mat, row_max, col_max, index);
+                found += internalSearch(target, row - 1, col, mat, row_max, col_max, index);
             }
-            hay[row][col] = match;
+            mat[row][col] = match;
         }
         return found;
     }
