@@ -10,14 +10,13 @@ using namespace std;
 
 
 
-class Solution
-{
+class Solution {
 public:
     int solve(int n, string seq)
     {
         // seen[i] = 0, indicates that customer 'i' is not in cafe
-        // seen[1] = 1, indicates that customer 'i' is in cafe but computer is not assigned yet.
-        // seen[2] = 2, indicates that customer 'i' is in cafe and  has occupied a computer.
+       // seen[1] = 1, indicates that customer 'i' is in cafe but computer is not assigned yet.
+       // seen[2] = 2, indicates that customer 'i' is in cafe and  has occupied a computer.
 
         char seen[26] = { 0 }; // array to store entry/exit of chars
         int res = 0, occupied = 0;
@@ -49,18 +48,19 @@ public:
 };
 
 
+
+
 int main() {
     int t;
     scanf("%d", &t);
-    while (t--)
-    {
+    while (t--) {
 
         int n;
         scanf("%d", &n);
 
 
         cin.ignore();
-        string s = ;
+        string s;
         getline(cin, s);
 
         Solution obj;
@@ -70,4 +70,5 @@ int main() {
 
     }
 }
+
 
