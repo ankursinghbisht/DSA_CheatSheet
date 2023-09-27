@@ -2,11 +2,11 @@
 Idea:
 Any number with factorial with 'n' following zeroes must have 'n' 5 in it
 To solve:
-finding element with 'n' 5 in it's factorial
+finding element with 'n' 5 in its factorial
 
 Steps:
 Declaring low & high as 0 & 5* 'n' as,the maximum value whose factorial contain n trailing zeroes is 5*n.
-doing binary serach between it, and finding minimum val with 'n' 0s.
+doing binary search between it, and finding minimum val with 'n' 0s.
 */
 
 #include <bits/stdc++.h>
