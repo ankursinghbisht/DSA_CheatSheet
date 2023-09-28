@@ -1,6 +1,9 @@
 /*
 Idea:
-
+finding min & max time required to cook all parathas.
+using binary search to find optimum time to cook
+with each 'mid' value, check if it's possible to cook in time limit.
+returning minimum time value.
 */
 
 
