@@ -1,6 +1,6 @@
 /*
 Idea:
-Using dummy variabe to keep track of the head after being sorted.
+Using dummy variable to keep track of the head after being sorted.
 & reversing the linked list for each group.
 */
 
