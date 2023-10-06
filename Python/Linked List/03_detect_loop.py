@@ -1,5 +1,5 @@
 """
-Idea:
+Idea: (  Floyd’s Cycle detection algorithm )
 using 2 pointers (one with one increment at a time & other with 2 increments),
 idea being, if there's a loop in the linked list, they will be pointing at same element once.
 """
