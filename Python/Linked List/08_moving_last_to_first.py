@@ -46,7 +46,7 @@ class LinkedList:
 
         exchanged.next = self.head
         self.head = exchanged # updated head pointer
-}
+
 
     # Driver's Code
 
