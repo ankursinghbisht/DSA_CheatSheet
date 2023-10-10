@@ -1,5 +1,7 @@
 /*
-
+Idea:
+Using 2 pointers , both with different pace, once one pointer reached head again, slower pointer is at mid
+now make 2 different circular LL
 */
 
 //{ Driver Code Starts
