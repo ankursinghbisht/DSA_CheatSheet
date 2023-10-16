@@ -1,5 +1,6 @@
 /*
-
+Idea:
+reversing k nodes at a time, and keeping track of previous node at each group and updating the links.
 */
 
 // C++ implementation to reverse a doubly linked list in groups of given size
@@ -76,7 +77,8 @@ Node* revListInGroupOfGivenSize(Node* head, int k)
 
         if (!globprev)
             globprev = st; // assigning the last node of the reversed k nodes
-        else {
+        else
+        {
             globprev->next = prev;
             prev->prev = globprev; // connecting last node of last k group to the first node of present k group
             globprev = st;
