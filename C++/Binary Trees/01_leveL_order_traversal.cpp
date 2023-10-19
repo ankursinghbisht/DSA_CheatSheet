@@ -1,6 +1,6 @@
 /*
 Idea:
-using list to store nodes in order, accessing each node and pushing their child from left to right in the list
+using queue to store nodes in order, accessing each node and pushing their child from left to right in the queue
 */
 
 //{ Driver Code Starts
