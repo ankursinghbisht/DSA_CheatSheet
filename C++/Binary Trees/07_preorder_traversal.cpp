@@ -1,6 +1,6 @@
 /*
 Idea:
-In Inorder traversal,append the answer , then recursively call left subpart of tree  and  right subpart of tree.
+In Preorder traversal,append the answer , then recursively call left subpart of tree  and  right subpart of tree.
 */
 
 //{ Driver Code Starts
