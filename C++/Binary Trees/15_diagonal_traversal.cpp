@@ -1,6 +1,7 @@
 /*
-
-
+Idea:
+using Queue to store Nodes, and iterating through it.
+and iterating each node's right child till NULL & appending left child to queue again.
 */
 
 //{ Driver Code Starts
