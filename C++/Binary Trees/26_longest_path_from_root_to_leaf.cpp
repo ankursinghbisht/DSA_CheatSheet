@@ -3,8 +3,6 @@ Idea:
 keeping track of the longest path and the height sum in longest path, and recursively iterating the tree to find the deepest node.
 */
 
-//{ Driver Code Starts
-//Initial Template for C++
 
 #include <bits/stdc++.h>
 using namespace std;
