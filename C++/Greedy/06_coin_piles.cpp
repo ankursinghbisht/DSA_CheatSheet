@@ -1,5 +1,9 @@
 /*
-
+Idea:
+Sorting the vector in increasing order, we iterate over all the coin pile sizes,
+and for the rest of the piles if the pile size is less than the current size then remove that pile entirely
+otherwise if the pile size is greater than current pile size plus K then remove the excess coins.
+The minimum number of coins removed in any of the turns is the answer.
 */
 
 //{ Driver Code Starts
