@@ -1,17 +1,12 @@
 /*
 Idea:
 1. Store amount of all persons to be settled in a set. If a person is in debt his amount will be negative else +ve.
-
 2. Traverse until only 1 person is left to be settled.
-
 3. Begin of set will be debit guy and end will be credit guy.
-
 4. If debt is less then settle debit guy. Compute new credit by adding debit and store in set.
-
 5. Else settle credit guy and compute new debit by adding credit and store in set.
 
-6. Remember debit is -ve therefore adding credit will reduce debt. Similarly adding debt to credit will reduce credit.
-
+(debit is -ve therefore adding credit will reduce debt. Similarly adding debt to credit will reduce credit.)
 */
 
 
